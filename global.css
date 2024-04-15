@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-noto-sans: "Noto Sans";
+  --font-inter: Inter;
+  --font-roboto-flex: "Roboto Flex";
+  --font-georgia: Georgia;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #888;
+  --color-gray-200: #7c7c7c;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-100: rgba(217, 217, 217, 0);
+  --link: #0f5f0d;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-7xs: 6px;
+  --padding-2xs: 11px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}
