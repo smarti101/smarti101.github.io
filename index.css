@@ -1,105 +1,138 @@
+.cow,
+.cow-in-common {
+  position: absolute;
+  left: 548px;
+  display: inline-block;
+}
+.cow-in-common {
+  top: 283px;
+  line-height: 136.11%;
+  color: var(--color-black);
+  text-align: justify;
+  width: 674px;
+}
+.cow {
+  top: 213px;
+  font-size: 48px;
+  line-height: 113.55%;
+  font-family: var(--font-georgia);
+  width: 337px;
+  height: 60px;
+}
+.desktop-1-child {
+  position: absolute;
+  top: 272.5px;
+  left: 547.5px;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 684px;
+  height: 1px;
+}
+.cows-are-members {
+  position: absolute;
+  top: 375px;
+  left: 548px;
+  line-height: 136.11%;
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+  width: 673px;
+  height: 30px;
+}
+.anchor-domestic-cattle {
+  position: absolute;
+  left: 0;
+  top: --100px;
+}
+.domestic-cattle,
+.natural-history {
+  position: absolute;
+  top: 323px;
+  left: 548px;
+  font-size: var(--font-size-13xl);
+  line-height: 113.55%;
+  display: inline-block;
+  font-family: var(--font-georgia);
+  width: 320px;
+  height: 60px;
+}
+.natural-history {
+  top: 765px;
+}
+.desktop-1-item {
+  position: absolute;
+  height: 27.78%;
+  width: 35.05%;
+  top: 42.13%;
+  right: 36.41%;
+  bottom: 30.09%;
+  left: 28.54%;
+  background-color: var(--color-gainsboro-200);
+}
+.the-size-and {
+  position: absolute;
+  top: 805px;
+  left: 548px;
+  line-height: 136.11%;
+  color: var(--color-black);
+  white-space: pre-wrap;
+  text-align: justify;
+  display: inline-block;
+  width: 673px;
+  height: 30px;
+}
+.desktop-1-inner,
+.rectangle-div {
+  position: absolute;
+  top: 273px;
+  left: 1245px;
+  background-color: var(--color-gainsboro-200);
+  width: 258px;
+  height: 317px;
+}
+.rectangle-div {
+  top: 605px;
+  width: 257px;
+  height: 468px;
+}
 .mingcutemenu-fill-icon {
+  position: absolute;
+  top: 5px;
+  left: 0;
   width: 40px;
   height: 40px;
-  position: relative;
   overflow: hidden;
-  flex-shrink: 0;
-}
-.mingcutemenu-fill-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-8xs) var(--padding-smi) 0 0;
 }
 .infoverse {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: 0.01em;
-  font-weight: 700;
-  font-family: inherit;
-  white-space: nowrap;
-}
-.infoverse-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-8xs) 0 0;
-  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 117px;
   font-size: 42px;
+  letter-spacing: 0.01em;
   font-family: var(--font-roboto-flex);
+  text-align: left;
 }
 .button1 {
-  width: 55px;
   position: relative;
   letter-spacing: 0.09em;
-  display: inline-block;
-  min-width: 55px;
 }
-.button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.button3 {
-  height: 22px;
-  width: 181px;
-  position: relative;
-  letter-spacing: 0.09em;
-  display: inline-block;
-  white-space: nowrap;
-}
-.button2 {
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.button-parent,
+.button,
 .button2,
-.frame-wrapper {
-  display: flex;
-  align-items: flex-start;
-}
-.button-parent {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-.frame-wrapper {
-  width: 293px;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: var(--padding-mid) 0 0;
-  box-sizing: border-box;
-}
-.button5 {
-  width: 87px;
-  position: relative;
-  letter-spacing: 0.09em;
-  display: inline-block;
-  min-width: 87px;
-}
-.button-wrapper,
 .button4 {
+  position: absolute;
+  top: 17px;
+  left: 371px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
-.button-wrapper {
-  flex-direction: column;
-  padding: 0 var(--padding-8xs) 0 0;
+.button2,
+.button4 {
+  left: 484px;
 }
-.button7 {
-  height: 22px;
-  width: 182px;
-  position: relative;
-  letter-spacing: 0.09em;
-  display: inline-block;
-  white-space: nowrap;
+.button4 {
+  left: 728px;
 }
 .button6,
 .frame-child {
@@ -110,1056 +143,179 @@
   top: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .frame-child {
   top: 21.5px;
+  max-height: 100%;
   width: 181px;
-  height: 2px;
-  z-index: 1;
-}
-.button9,
-.frame {
-  position: relative;
-}
-.frame {
-  height: 22px;
-  width: 181px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.button9 {
-  width: 112px;
-  letter-spacing: 0.09em;
-  display: inline-block;
-  min-width: 112px;
-}
-.button8 {
-  flex-direction: row;
-  justify-content: flex-start;
 }
 .button8,
-.frame-container,
-.frame-group {
-  display: flex;
-  align-items: flex-start;
+.frame {
+  position: absolute;
+  top: 17px;
 }
-.frame-group {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-.frame-container {
-  width: 504px;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: var(--padding-mid) 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.button11 {
+.frame {
+  left: 880px;
+  width: 181px;
   height: 22px;
-  width: 153px;
-  position: relative;
-  letter-spacing: 0.09em;
-  display: inline-block;
-  white-space: nowrap;
+  overflow: hidden;
 }
-.button-container,
-.button10,
-.frame-item {
+.button8 {
+  left: 1121px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
-.button-container,
-.frame-item {
-  flex-direction: column;
-  padding: var(--padding-mid) 31px 0 0;
-}
-.frame-item {
+.search {
+  position: absolute;
+  top: 10px;
+  left: 21px;
+  display: inline-block;
   width: 134px;
-  border: 0;
-  outline: 0;
-  background-color: transparent;
-  height: 23px;
-  padding: var(--padding-11xs) 0 0;
-  box-sizing: border-box;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-base);
-  color: rgba(0, 0, 0, 0.47);
+  height: 21px;
 }
-.bisearch-icon {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  min-height: 24px;
-  z-index: 1;
-}
-.frame-div,
-.frame-parent1 {
-  display: flex;
-  align-items: flex-start;
-}
-.frame-parent1 {
-  align-self: stretch;
+.search-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 23px;
   background-color: var(--color-white);
   border: 1px solid var(--link);
-  flex-direction: row;
-  justify-content: space-between;
-  padding: var(--padding-5xs) var(--padding-mid) var(--padding-5xs)
-    var(--padding-xl);
-  gap: var(--gap-xl);
-}
-.frame-div {
-  width: 251px;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: var(--padding-8xs) 0 0;
   box-sizing: border-box;
+  width: 251px;
+  height: 40px;
 }
-.desktop-1-inner,
+.bisearch-icon {
+  position: absolute;
+  top: 8px;
+  left: 211px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
 .frame-parent {
+  position: absolute;
+  top: 5px;
+  left: 1545px;
+  width: 251px;
+  height: 40px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.47);
+  font-family: var(--font-inter);
+}
+.button10 {
+  position: absolute;
+  top: 17px;
+  left: 1297px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
-.frame-parent {
-  justify-content: flex-start;
-  padding: 0 1px 0 var(--padding-xl);
-  box-sizing: border-box;
-  gap: 64px;
-  text-align: center;
-  font-size: var(--font-size-base);
-  color: var(--link);
-  font-family: var(--font-noto-sans);
-}
-.desktop-1-inner {
+.top-menu {
   position: absolute;
   top: 31px;
-  left: 0;
-  width: 1843px;
-  justify-content: flex-end;
+  left: 47px;
+  width: 1803px;
+  height: 49px;
+  text-align: center;
+  font-size: var(--font-size-base);
 }
-.anchor-natural-history {
-  position: absolute;
-  left: 0;
-  top: --100px;
-}
-.natural-history {
-  margin: 0;
-  position: absolute;
-  bottom: -608px;
-  left: 548px;
-  font-size: inherit;
-  line-height: 113.55%;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  width: 320px;
-  height: 60px;
-}
-.anchor-domestication-and-econo {
-  position: absolute;
-  left: 0;
-  top: --100px;
-}
-.domestication-and-economic-container {
-  margin: 0;
-  position: absolute;
-  bottom: -1966px;
-  left: 544px;
-  font-size: inherit;
-  line-height: 113.55%;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  width: 704px;
-  height: 42px;
-}
-.desktop-1-child {
-  position: absolute;
-  top: 1261px;
-  left: 548px;
-  border-radius: var(--br-5xs);
-  width: 673px;
-  height: 300px;
-  overflow: hidden;
-}
-.the-size-and {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.blank-line {
-  margin: 0;
-}
-.cows-are-well {
-  color: var(--color-black);
-}
-.grass {
-  color: var(--link);
-}
-.with-a-wide {
-  white-space: pre-wrap;
-}
-.blank-line1,
-.cows-are-well-adapted-for-graz {
-  margin: 0;
-}
-.the-most-specialized {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.the-size-and-container {
-  margin: 0;
-  position: absolute;
-  bottom: -1494px;
-  left: 548px;
-  font-size: var(--font-size-3xl);
-  line-height: 136.11%;
-  font-weight: 400;
-  font-family: var(--font-noto-sans);
-  text-align: justify;
-  display: inline-block;
-  width: 673px;
-  height: 899px;
-  z-index: 1;
-  color: var(--color-black);
-}
-.cows-are-currently {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.blank-line2 {
-  margin: 0;
-}
-.cows-were-first {
-  color: var(--color-black);
-  white-space: pre-wrap;
-}
-.overhunting {
-  color: var(--link);
-}
-.and-loss {
-  white-space: pre-wrap;
-}
-.blank-line3,
-.cows-were-first-domesticated-b {
-  margin: 0;
-}
-.cows-were-first1 {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.blank-line4 {
-  margin: 0;
-}
-.all-mammals-produce,
-.dairy-cows {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.blank-line5 {
-  margin: 0;
-}
-.cows-usually {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.blank-line6 {
-  margin: 0;
-}
-.the-meat-of {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.cows-are-currently-container {
-  margin: 0;
-  position: absolute;
-  bottom: -4061px;
-  left: 546px;
-  font-size: var(--font-size-3xl);
-  line-height: 136.11%;
-  font-weight: 400;
-  font-family: var(--font-noto-sans);
-  text-align: justify;
-  display: -webkit-inline-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 69;
-  -webkit-box-orient: vertical;
-  width: 706px;
-  color: var(--color-black);
-}
-.desktop-1-item {
-  right: 417px;
-  bottom: -1345px;
-  width: 257px;
-  height: 468px;
-}
-.desktop-1-child1,
-.desktop-1-item,
-.frame-icon {
-  position: absolute;
-  border-radius: var(--br-5xs);
-  overflow: hidden;
-}
-.frame-icon {
-  top: 2687px;
-  left: 548px;
-  width: 654px;
-  height: 254px;
-}
-.desktop-1-child1 {
-  right: 418px;
-  bottom: -2746px;
-  width: 222px;
-  height: 336px;
-}
-.frame-inner {
-  width: 6px;
-  height: 6px;
-  position: absolute;
-  margin: 0 !important;
-  top: 84px;
-  left: 10px;
+.component-1-child {
+  width: 8px;
+  position: relative;
   border-radius: 50%;
-  background-color: #d9d9d9;
-  z-index: 1;
+  background-color: var(--color-gray-200);
+  height: 8px;
+}
+.button12 {
+  position: relative;
+  line-height: 136.11%;
+}
+.component-1,
+.component-2,
+.component-3 {
+  position: absolute;
+  top: 68px;
+  left: 14px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gainsboro-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.component-2,
+.component-3 {
+  top: 110px;
+}
+.component-3 {
+  top: 152px;
+}
+.domestication-and {
+  margin: 0;
+}
+.component-4 {
+  position: absolute;
+  top: 194px;
+  left: 14px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gainsboro-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  gap: var(--gap-3xs);
 }
 .contents {
   position: absolute;
-  top: 0;
-  left: 8px;
+  top: 18px;
+  left: 22px;
+  font-size: 27px;
   line-height: 136.11%;
+  color: #4e4e4e;
   display: inline-block;
   width: 240px;
   height: 40px;
 }
-.line-div {
+.content-menu-child {
   position: absolute;
-  top: 40px;
-  left: 0;
+  top: 57.5px;
+  left: 13.5px;
   border-top: 1px solid var(--color-gray-100);
   box-sizing: border-box;
   width: 230px;
   height: 1px;
 }
-.frame1 {
-  align-self: stretch;
-  height: 40px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.ellipse-div {
-  width: 8px;
-  height: 8px;
-  position: relative;
-  border-radius: 50%;
-  background-color: var(--color-gray-200);
-}
-.component-1-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs-5) 0 0;
-}
-.button12 {
-  position: relative;
-  font-size: var(--font-size-xl);
-  line-height: 136.11%;
-  font-family: var(--font-noto-sans);
-  color: var(--link);
-  text-align: left;
-  display: inline-block;
-  min-width: 112px;
-}
-.component-1 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-7xs) var(--padding-2xs);
-  background-color: var(--color-gainsboro-100);
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-3xs);
-}
-.frame-child1 {
-  width: 8px;
-  height: 8px;
-  position: relative;
-  border-radius: 50%;
-  background-color: var(--color-gray-200);
-}
-.component-2-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs-5) 0 0;
-}
-.button13 {
-  position: relative;
-  font-size: var(--font-size-xl);
-  line-height: 136.11%;
-  font-family: var(--font-noto-sans);
-  color: var(--link);
-  text-align: left;
-}
-.anchor-component-2 {
-  position: absolute;
-  left: 0;
-  top: --100px;
-}
-.component-2 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-7xs) var(--padding-2xs);
-  background-color: var(--color-gainsboro-100);
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-3xs);
-  position: relative;
-}
-.frame-child2 {
-  width: 8px;
-  height: 8px;
-  position: relative;
-  border-radius: 50%;
-  background-color: var(--color-gray-200);
-}
-.component-3-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs-5) 0 0;
-}
-.button14 {
-  position: relative;
-  font-size: var(--font-size-xl);
-  line-height: 136.11%;
-  font-family: var(--font-noto-sans);
-  color: var(--link);
-  text-align: left;
-}
-.component-1-parent,
-.component-3,
-.frame-parent3 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.component-3 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-7xs) var(--padding-2xs);
-  background-color: var(--color-gainsboro-100);
-  border-radius: var(--br-9xs);
-  overflow: hidden;
-  flex-direction: row;
-  gap: var(--gap-3xs);
-}
-.component-1-parent,
-.frame-parent3 {
-  flex-direction: column;
-  gap: var(--gap-10xs);
-}
-.frame-parent3 {
-  width: 248px;
-  gap: var(--gap-3xs);
-}
-.frame-child3 {
-  width: 8px;
-  height: 8px;
-  position: relative;
-  border-radius: 50%;
-  background-color: var(--color-gray-200);
-}
-.component-4-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 23px 0 0;
-}
-.domestication-and,
-.economic-production {
-  margin: 0;
-}
-.button15 {
-  height: 54px;
-  position: relative;
-  line-height: 136.11%;
-  display: inline-block;
-}
-.component-4,
-.ellipse-parent {
-  overflow: hidden;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.component-4 {
-  align-self: stretch;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-gainsboro-100);
-  flex-direction: row;
-  padding: var(--padding-7xs) var(--padding-2xs);
-  gap: var(--gap-3xs);
-  cursor: pointer;
-  font-size: var(--font-size-xl);
-  color: var(--link);
-}
-.ellipse-parent {
-  width: 256px;
-  background-color: var(--color-white);
-  flex-shrink: 0;
-  flex-direction: column;
-  padding: 18px var(--padding-smi) 150px 14px;
-  box-sizing: border-box;
-  position: relative;
-  gap: var(--gap-10xs);
-}
-.cow,
-.frame-child4 {
-  position: absolute;
-  left: 0;
-}
-.cow {
-  margin: 0;
-  height: calc(100% - 1px);
-  top: 0;
-  font-size: inherit;
-  line-height: 113.55%;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  width: 337px;
-}
-.frame-child4 {
-  top: 60px;
-  border-top: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-  width: 684px;
-  height: 1px;
-  z-index: 1;
-}
-.cow-parent {
-  align-self: stretch;
-  height: 61px;
-  position: relative;
-}
-.cow-in-common {
-  color: var(--color-black);
-}
-.mammals,
-.sex {
-  color: var(--link);
-}
-.including {
-  color: var(--color-black);
-}
-.cattle {
-  color: var(--link);
-}
-.span {
-  color: var(--color-black);
-}
-.bovines {
-  color: var(--link);
-}
-.span1 {
-  color: var(--color-black);
-}
-.moose {
-  color: var(--link);
-}
-.span2 {
-  color: var(--color-black);
-}
-.elephants {
-  color: var(--link);
-}
-.span3 {
-  color: var(--color-black);
-}
-.sea-lions {
-  color: var(--link);
-}
-.and {
-  color: var(--color-black);
-}
-.whales {
-  color: var(--link);
-}
-.span4 {
-  color: var(--color-black);
-}
-.blank-line7,
-.cow-in-common-parlance-a-dom {
-  margin: 0;
-}
-.domestic-cows-are {
-  color: var(--color-black);
-}
-.english-language {
-  color: var(--link);
-}
-.has-several-words {
-  color: var(--color-black);
-}
-.calf {
-  color: var(--link);
-}
-.a-female-calf {
-  color: var(--color-black);
-}
-.heifer {
-  color: var(--link);
-}
-.is-a-female {
-  white-space: pre-wrap;
-}
-.bull {
-  color: var(--link);
-}
-.many-male-cattle {
-  color: var(--color-black);
-}
-.castrated {
-  color: var(--link);
-}
-.to-reduce-their {
-  color: var(--color-black);
-}
-.beef {
-  color: var(--link);
-}
-.are-called {
-  color: var(--color-black);
-}
-.steers {
-  color: var(--link);
-}
-.or-bullocks-whereas {
-  color: var(--color-black);
-}
-.draft {
-  color: var(--link);
-}
-.purposes-are-known {
-  color: var(--color-black);
-}
-.oxen {
-  color: var(--link);
-}
-.a-group-of {
-  color: var(--color-black);
-}
-.archaic {
-  color: var(--link);
-}
-.term-for-more {
-  color: var(--color-black);
-}
-.constitutes {
-  color: var(--link);
-}
-.a-herd-english {
-  color: var(--color-black);
-  white-space: pre-wrap;
-}
-.domestic-cows-are-one-of-the-m {
-  margin: 0;
-}
-.cow-in-common-container {
-  margin: 0;
-  align-self: stretch;
-  height: 600px;
-  position: relative;
-  font-size: var(--font-size-3xl);
-  line-height: 136.11%;
-  font-weight: 400;
-  font-family: var(--font-noto-sans);
-  text-align: justify;
-  display: inline-block;
-  color: var(--color-black);
-}
-.domestic-order {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 9px;
-  min-width: 444px;
-  max-width: 100%;
-}
-.frame-child5 {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  border-radius: var(--br-5xs);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.frame-wrapper1 {
-  height: 377px;
-  width: 258px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 60px 0 0;
-  box-sizing: border-box;
-  min-width: 258px;
-}
-.domestic-order-parent {
-  flex: 1;
-  justify-content: flex-start;
-  gap: 14px;
-  min-width: 621px;
-  font-size: 48px;
-  color: var(--link);
-  font-family: var(--font-georgia);
-}
-.domestic-order-parent,
-.frame-parent2,
-.frame-section {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.frame-parent2 {
-  width: 1226px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 15px;
-}
-.frame-section {
-  width: 1780px;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: 27px;
-  color: var(--color-dimgray);
-  font-family: var(--font-noto-sans);
-}
-.anchor-domestic-cattle {
-  position: absolute;
-  left: 0;
-  top: --100px;
-}
-.domestic-cattle {
-  margin: 0;
-  height: -7.3px;
-  width: 320px;
-  position: relative;
-  font-size: inherit;
-  line-height: 113.55%;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.domestic-cattle-wrapper {
-  width: 1416px;
-  height: -7.3px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 0;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.antelope,
-.artiodactyla,
-.bison,
-.goats,
-.sheep,
-.yak {
-  color: var(--link);
-}
-.cows-are-members-container {
-  margin: 0;
-  height: 228px;
-  width: 673px;
-  position: relative;
-  font-size: inherit;
-  line-height: 136.11%;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: calc(100% - 1920px);
-}
-.frame-child6,
-.rectangle-div {
-  position: relative;
-  display: none;
-}
-.rectangle-div {
-  height: 102px;
-  width: 951px;
-  background-color: var(--color-mediumvioletred);
-  max-width: 100%;
-}
-.frame-child6 {
-  height: 32px;
-  width: 47px;
+.content-menu,
+.desktop-1 {
   background-color: var(--color-white);
 }
-.ad {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-  min-width: 31px;
-  z-index: 2;
-}
-.rectangle-group {
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-11xs) var(--padding-5xs) 3px;
-  z-index: 1;
-}
-.off-all-purchases {
-  margin: 0;
-  align-self: stretch;
-  height: 36px;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  z-index: 1;
-}
-.purchase-warning {
-  width: 533px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 34px 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-  text-align: center;
-  font-size: 36px;
-  color: var(--color-white);
-  font-family: var(--font-gmarket-sans);
-}
-.rectangle-parent {
-  width: 951px;
-  background-color: var(--color-mediumvioletred);
-  padding: 0 0 33px;
-  box-sizing: border-box;
-  gap: 162px;
-}
-.domesticated-bovine,
-.domesticated-bovine-inner,
-.rectangle-parent {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.domesticated-bovine-inner {
-  width: 1920px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid #949494;
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 0 415px;
-  z-index: 1;
-  text-align: left;
-  font-size: 23px;
-  color: var(--color-dimgray);
-  font-family: var(--font-roboto);
-}
-.domesticated-bovine {
-  align-self: stretch;
-  height: 103px;
-  text-align: justify;
-  font-size: var(--font-size-3xl);
-  color: var(--color-black);
-  font-family: var(--font-noto-sans);
-}
-.desktop-1,
-.frame-main {
-  width: 100%;
-  text-align: left;
-  font-size: var(--font-size-13xl);
-  color: var(--link);
-  font-family: var(--font-georgia);
-}
-.frame-main {
+.content-menu {
   position: absolute;
   top: 213px;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 50.7px;
-  max-width: 100%;
+  left: 280px;
+  width: 256px;
+  height: 410px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
 }
 .desktop-1 {
-  height: 1080px;
+  width: 100%;
   position: relative;
-  background-color: var(--color-white);
+  height: 1080px;
   overflow-y: auto;
-  line-height: normal;
-  letter-spacing: normal;
-}
-@media screen and (max-width: 1425px) {
-  .button-parent {
-    display: none;
-  }
-  .frame-wrapper {
-    width: 0;
-  }
-  .domesticated-bovine-inner {
-    padding-left: var(--padding-188xl);
-    padding-right: var(--padding-188xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .rectangle-parent {
-    flex-wrap: wrap;
-  }
-  .desktop-1,
-  .domesticated-bovine {
-    height: auto;
-  }
-  .desktop-1 {
-    min-height: 1080;
-  }
-}
-@media screen and (max-width: 825px) {
-  .domestication-and-economic-container,
-  .natural-history {
-    font-size: var(--font-size-7xl);
-    line-height: 29px;
-  }
-  .cow {
-    font-size: 38px;
-    line-height: 44px;
-  }
-  .domestic-order {
-    min-width: 100%;
-  }
-  .frame-child5 {
-    align-self: stretch;
-    width: auto;
-  }
-  .frame-wrapper1 {
-    flex: 1;
-  }
-  .domestic-order-parent {
-    flex-wrap: wrap;
-    min-width: 100%;
-  }
-  .domestic-cattle {
-    font-size: var(--font-size-7xl);
-    line-height: 29px;
-  }
-  .off-all-purchases {
-    font-size: var(--font-size-10xl);
-  }
-  .rectangle-parent {
-    gap: 81px;
-  }
-  .domesticated-bovine-inner {
-    padding-left: var(--padding-84xl);
-    padding-right: var(--padding-84xl);
-    box-sizing: border-box;
-  }
-  .frame-main {
-    gap: 25px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .domestication-and-economic-container,
-  .natural-history {
-    font-size: var(--font-size-lgi);
-    line-height: 22px;
-  }
-  .cows-are-currently-container,
-  .the-size-and-container {
-    font-size: var(--font-size-lg);
-    line-height: 24px;
-  }
-  .contents {
-    font-size: var(--font-size-3xl);
-    line-height: 29px;
-  }
-  .button12,
-  .button13,
-  .button14,
-  .button15 {
-    font-size: var(--font-size-base);
-    line-height: 22px;
-  }
-  .cow {
-    font-size: var(--font-size-10xl);
-    line-height: 33px;
-  }
-  .cow-in-common-container {
-    font-size: var(--font-size-lg);
-    line-height: 24px;
-  }
-  .domestic-cattle {
-    font-size: var(--font-size-lgi);
-    line-height: 22px;
-  }
-  .cows-are-members-container {
-    line-height: 24px;
-  }
-  .ad,
-  .cows-are-members-container {
-    font-size: var(--font-size-lg);
-  }
-  .off-all-purchases {
-    font-size: var(--font-size-3xl);
-  }
-  .rectangle-parent {
-    gap: 40px;
-  }
-  .domesticated-bovine-inner {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--link);
+  font-family: var(--font-noto-sans);
 }
